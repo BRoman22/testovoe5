@@ -1,0 +1,27 @@
+.main {
+  background-color: var(--black);
+  background-image: url('/Vector.svg');
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+  padding: 70px 100px;
+}
+
+.title {
+  font-weight: inherit;
+  font-size: 56px;
+  line-height: 1;
+}
+
+.text1 {
+}
+
+.text2 {
+  font-size: 45px;
+  line-height: 1;
+  font-weight: 900;
+}

@@ -1,0 +1,53 @@
+.main {
+  font-family: var(--font-ubuntu);
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.7;
+  color: var(--black);
+  padding: 25px 0 25px 150px;
+  display: grid;
+  column-gap: 75px;
+  grid-template-columns: 800px 500px;
+  grid-template-areas:
+    'image title'
+    'image text1'
+    'image text2';
+}
+
+.title {
+  grid-area: title;
+  font-size: 62px;
+  line-height: 1;
+  color: var(--blue);
+  font-weight: inherit;
+}
+
+.text1 {
+  grid-area: text1;
+  font-size: inherit;
+}
+
+.text2 {
+  grid-area: text2;
+  font-size: inherit;
+}
+
+@media (max-width: 768px) {
+  .main {
+    font-size: 16px;
+    padding: 13px 12px;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    grid-template-areas:
+      'title'
+      'text1'
+      'image'
+      'text2';
+  }
+
+  .title {
+    font-family: var(--font-bebas);
+    font-size: 38px;
+    font-weight: 700;
+  }
+}

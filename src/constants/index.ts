@@ -1,0 +1,4 @@
+export const SCREEN_WIDTH = {
+  DESKTOP_SCREEN: 1024,
+  MOBILE_SCREEN: 430,
+};
